@@ -30,7 +30,7 @@
           "description": null,
           "s3ExecutionContext": {
             "__typename": "S3ExecutionContext",
-            "s3Uri": "s3://sagemaker-studio-25879a90/bank-additional/{{basename_param}}",
+            "s3Uri": "s3://{{s3bucket_param}}/bank-additional/{{basename_param}}",
             "s3ContentType": "csv",
             "s3HasHeader": true,
             "s3FieldDelimiter": ",",
